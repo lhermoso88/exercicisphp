@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estils62.css">
+    <title>Cine literario</title>
+</head>
+<body>
+    
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="text-muted" href="#">Subscribe</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="#">Large</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="text-muted" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            </a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+          </div>
+        </div>
+      </header>
+    <p>Elige la película que quieres ver</p>
+    <form action="Exercici52b.php" method="get">
+            <legend>Compra tu entrada ya!</legend>
+            <div class="row">
+                <div class="col"><p><img src=img/amelie.jpg> Le Fabuleux déstin d'Amélie Poulain - 2001 
+                    <input type="checkbox" name="item['amelie']" value="50"></p><br></div>
+                <div class="col"><p><img src=img/bright.jpg>Bright Star - 2009
+                    <input type="checkbox" name="item['bright']" value="35"></p><br></div>
+                <div class="col"><p><img src=img/emma.jpg>Emma - 1996
+                    <input type="checkbox" name="item['emma']" value="47"></p><br></div>
+              </div>
+            
+            
+            
+            <p><img src=img/far.jpg>Far from the madding crowd - 2015<input type="checkbox" name="item['far']" value="73"></p><br>
+            <p><img src=img/inlove.jpg>Shakespeare in love - 1998<input type="item['inlove']" name="item[]" value="189"></p><br>
+            <p><img src=img/jane.jpg>Becoming Jane - 2007<input type="checkbox" name="item['jane']" value="92"></p><br>
+            <p><img src=img/medianoche.jpg>Midnight in Paris - 2011<input type="checkbox" name="item['medianoche']" value="10"></p><br>
+            <p><img src=img/pride.jpg>Pride and Prejudice - 2005<input type="checkbox" name="item['pride']" value="75"></p><br>
+            <p><img src=img/eyre.jpg>Jane Eyre - 2011<input type="checkbox" name="item['eyre']" value="492"></p><br>
+            <p><img src=img/sense.jpg>Sense and Sensibility - 1995<input type="checkbox" name="item['sense']" value="46"></p><br>
+            <p><img src=img/suite.jpg>Suite Française - 2015<input type="checkbox" name="item['sense']" value="46"></p><br>
+            <p><img src=img/atonement.jpg>Atonement - 2007<input type="checkbox" name="item['sense']" value="46"></p><br>
+            <p><input type="submit" value="Comprar entrada"></p>
+
+    
+    </form>
+</body>
+</html>
